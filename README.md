@@ -1,4 +1,4 @@
-## ✨ Ocean Breeze theme
+## 🌊 Ocean Breeze theme
 <br/>
 <div align="left">
     Enhance the appearance of your Discord with beautiful Ocean based theme.
