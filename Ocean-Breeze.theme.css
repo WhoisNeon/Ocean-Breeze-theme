@@ -1,0 +1,100 @@
+/**
+ * @name Ocean Breeze
+ * @description A cool-toned, rounded Discord theme.
+ * @author neonxyz
+ * @version 1.0.0
+ * @invite UmtEtYbyT5
+ * @source https://github.com/WhoisNeon/Ocean-Breeze-theme/
+ */
+
+/* IMPORTANT: make sure to enable dark mode in Discord settings for the theme to apply properly!!! */
+
+@import url("https://refact0r.github.io/midnight-discord/midnight.css");
+
+/* customize things here */
+:root {
+  /* font, change to 'gg sans' for default discord font */
+  --font: "figtree";
+
+  /* top left corner text */
+  --corner-text: "Ocean Breeze";
+
+  /* color of status indicators and window controls */
+  --online-indicator: hsl(174, 70%, 50%); /* teal */
+  --dnd-indicator: hsl(348, 85%, 47%); /* vibrant pink */
+  --idle-indicator: hsl(45, 100%, 50%); /* bright yellow */
+  --streaming-indicator: hsl(270, 60%, 50%); /* violet */
+
+  /* accent colors */
+  --accent-1: hsl(200, 80%, 60%); /* links - sky blue */
+  --accent-2: hsl(200, 70%, 55%); /* general unread/mention elements */
+  --accent-3: hsl(200, 70%, 55%); /* accent buttons */
+  --accent-4: hsl(200, 80%, 50%); /* accent buttons when hovered */
+  --accent-5: hsl(200, 75%, 45%); /* accent buttons when clicked */
+  --mention: hsl(200, 70%, 55%, 0.08); /* mentions & mention messages */
+  --mention-hover: hsl(
+    200,
+    70%,
+    55%,
+    0.04
+  ); /* mentions & mention messages when hovered */
+
+  /* text colors */
+  --text-0: hsl(200, 15%, 90%); /* text on colored elements */
+  --text-1: hsl(200, 10%, 95%); /* other normally white text */
+  --text-2: hsl(200, 10%, 95%); /* headings and important text */
+  --text-3: hsl(200, 10%, 95%); /* normal text */
+  --text-4: hsl(200, 10%, 70%); /* icon buttons and channels */
+  --text-5: hsl(200, 10%, 60%); /* muted channels/chats and timestamps */
+
+  /* background and dark colors */
+  --bg-1: hsl(210, 20%, 25%); /* dark buttons when clicked */
+  --bg-2: hsl(210, 25%, 20%); /* dark buttons */
+  --bg-3: hsl(210, 20%, 18%); /* spacing, secondary elements */
+  --bg-4: hsl(210, 15%, 15%); /* main background color */
+  --hover: hsl(210, 20%, 18%); /* buttons when hovered */
+  --active: hsl(
+    210,
+    25%,
+    20%
+  ); /* channels and buttons when clicked or selected */
+  --message-hover: hsl(210, 15%, 14%); /* messages when hovered */
+
+  /* amount of spacing and padding */
+  --spacing: 12px;
+
+  /* animations */
+  /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+  --list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+  --unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+  --moon-spin-transition: 0.4s ease; /* moon icon spin */
+  --icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+
+  /* corner roundness (border-radius) */
+  --roundness-xl: 22px; /* roundness of big panel outer corners */
+  --roundness-l: 20px; /* popout panels */
+  --roundness-m: 16px; /* smaller panels, images, embeds */
+  --roundness-s: 12px; /* members, settings inputs */
+  --roundness-xs: 10px; /* channels, buttons */
+  --roundness-xxs: 8px; /* searchbar, small elements */
+
+  /* direct messages moon icon */
+  /* change to block to show, none to hide */
+  --discord-icon: none; /* discord icon */
+  --moon-icon: none; /* moon icon */
+  --moon-icon-url: none; /* custom icon url */
+  --moon-icon-size: auto;
+
+  /* filter uncolorable elements to fit theme */
+  /* (just set to none, they're too much work to configure) */
+  --login-bg-filter: none; /* login background artwork */
+  --green-to-accent-3-filter: none; /* add friend page explore icon */
+  --blurple-to-accent-3-filter: none; /* add friend page school icon */
+}
+
+.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+  background-image: url("https://raw.githubusercontent.com/WhoisNeon/Ocean-Breeze-theme/refs/heads/main/Ocean-Breeze.svg");
+  background-color: transparent !important;
+  background-size: cover;
+  background-position: center;
+}
