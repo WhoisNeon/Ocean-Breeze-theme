@@ -8,8 +8,10 @@
 
 <br/>
 <div align="left">
-    <b><p align="left">BetterDiscord and Vencord:</b>
-    <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://github.com/WhoisNeon/Persian-font-theme/releases/download/theme/Persian.font.theme.css">here</a>
+    <b><p align="left">Local Themes:</b>
+    <br/>Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://github.com/WhoisNeon/Persian-font-theme/releases/download/theme/Persian.font.theme.css">here</a></p>
+
+    <b><p align="left">Online Themes:</b>
     <br/>Open Settings > Themes > Online Themes and copy the following link and paste in the text box. https://raw.githubusercontent.com/WhoisNeon/Ocean-Breeze-theme/refs/heads/main/Ocean-Breeze.theme.css</p>
 </div>
 
