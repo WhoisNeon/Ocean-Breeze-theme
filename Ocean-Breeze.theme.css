@@ -92,7 +92,7 @@
   --blurple-to-accent-3-filter: none; /* add friend page school icon */
 }
 
-.childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
+.childWrapper__6e9f8:has(> svg:not(.favoriteIcon_dcc7a4)) {
   background-image: url("https://raw.githubusercontent.com/WhoisNeon/Ocean-Breeze-theme/refs/heads/main/Ocean-Breeze.svg");
   background-color: transparent !important;
   background-size: cover;
