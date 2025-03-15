@@ -10,7 +10,7 @@
 <div align="left">
     <b><p align="left">Local Themes:</b>
     <br/>
-    Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://github.com/WhoisNeon/Persian-font-theme/releases/download/theme/Ocean-Breeze.theme.css">here</a></p>
+    Open Settings > Themes > Themes folder and copy the file downloaded <a href="https://github.com/WhoisNeon/Ocean-Breeze-theme/releases/download/theme/Ocean-Breeze.theme.css">here</a></p>
     <br/>
     <b><p align="left">Online Themes:</b>
     <br/>
